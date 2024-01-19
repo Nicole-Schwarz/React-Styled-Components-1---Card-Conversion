@@ -1,9 +1,9 @@
-import { Card, CardTitle } from "@/components/Card";
+import Card from "@/components/Card";
 
 export default function HomePage() {
   return (
     <main>
-      <CardTitle>The Simpsons</CardTitle>
+      <h1>The Simpsons</h1>
       <Card />
     </main>
   );
